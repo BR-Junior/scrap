@@ -3,7 +3,7 @@ import csv
 
 emails = []
 
-with open('data/result.json') as json_file:
+with open('result.json') as json_file:
   data = json.load(json_file)
 
   with open('emails.csv', 'w', encoding='UTF8', newline='') as file:
